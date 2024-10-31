@@ -1,6 +1,6 @@
-package ejercicios.claseUno;
+package ejercicios.clase1;
 
-public class ClaseUno_2 {
+public class Ejercicio2 {
 
     // Determinar si una familia pertenece al segmento ingresos altos
     float ingresosFamilia = 100000;
@@ -9,7 +9,7 @@ public class ClaseUno_2 {
     boolean poseeLujo = false;
 
     public static void main(String[] args) {
-        ClaseUno_2 clase = new ClaseUno_2();
+        Ejercicio2 clase = new Ejercicio2();
         if (clase.ingresosFamilia > 489083 || clase.cantidadVehios > 3 || clase.cantidadInmuebles > 1 || clase.poseeLujo) {
             System.out.println("La familia pertenece al segmento de ingresos altos");
         } else {

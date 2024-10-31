@@ -1,6 +1,6 @@
-package ejercicios.claseUno;
+package ejercicios.clase1;
 
-public class ClaseUno_1 {
+public class Ejercicio1 {
     public static void main(String[] args) {
         int numeroInicio = 5;
         int numeroFin = 14;
