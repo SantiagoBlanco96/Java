@@ -36,6 +36,20 @@ public class Ejercicio1 {
             numeros = numerosAux;
         }
 
+//        dado un vector de números, y un número X, que sume todos los números > X y
+//        retorne el resultado
+
+        numeros = new int[]{4, 5, 6, 2, 7, 8, 5, 2, 3, 1, 2, 7, 9};
+        int numero = 4;
+        int suma = 0;
+        for (int i = 0; i<numeros.length; i++) {
+            if (numeros[i]>numero){
+                suma = suma + numeros[i];
+            }
+        }
+
+        System.out.println(suma);
+
 
     }
 }
